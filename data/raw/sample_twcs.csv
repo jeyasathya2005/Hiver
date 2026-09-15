@@ -1,0 +1,25 @@
+tweet_id,author_id,inbound,created_at,text,response_tweet_id,in_response_to_tweet_id
+1001,115821,True,Tue Oct 31 22:10:45 +0000 2017,@AppleSupport My battery dies in 2 hours after updating to iOS 17.1! Help!,1002,
+1002,AppleSupport,False,Tue Oct 31 22:12:15 +0000 2017,@115821 We're here to help. Check Settings > Battery > Battery Health to inspect peak performance capacity. Send us a DM if under 80%.,1003,1001
+1003,115821,True,Tue Oct 31 22:14:00 +0000 2017,@AppleSupport It says maximum capacity is 77% and service recommended.,1004,1002
+1004,AppleSupport,False,Tue Oct 31 22:16:30 +0000 2017,@115821 Thanks for checking. A battery below 80% requires replacement. Please visit an Apple Authorized Service Provider or DM us to book an appointment.,,1003
+1005,115822,True,Wed Nov 01 09:15:20 +0000 2017,@AppleSupport I was charged $9.99 for Apple Music after I canceled my subscription! Want a refund now.,1006,
+1006,AppleSupport,False,Wed Nov 01 09:18:00 +0000 2017,@115822 We can look into billing. Please visit reportaproblem.apple.com to request a refund for recent charges or DM us your Apple ID email.,1007,1005
+1007,115822,True,Wed Nov 01 09:20:10 +0000 2017,@AppleSupport Submitted request through reportaproblem and it was approved immediately! Thank you.,1008,1006
+1008,AppleSupport,False,Wed Nov 01 09:22:00 +0000 2017,@115822 You are very welcome! Don't hesitate to reach out if you need anything else.,,1007
+1009,115823,True,Wed Nov 01 11:00:00 +0000 2017,@AppleSupport My Apple ID is locked for security reasons and I have a flight in 2 hours! Help!,1010,
+1010,AppleSupport,False,Wed Nov 01 11:03:12 +0000 2017,@115823 We understand this is urgent. You can unlock your account at iforgot.apple.com using your trusted phone number or trusted device.,1011,1009
+1011,115823,True,Wed Nov 01 11:06:00 +0000 2017,@AppleSupport I don't have access to my trusted phone number anymore.,1012,1010
+1012,AppleSupport,False,Wed Nov 01 11:09:40 +0000 2017,@115823 If you don't have your trusted number, you'll need to start Account Recovery at iforgot.apple.com. Please send us a DM so a specialist can guide you through verification.,,1011
+1013,115824,True,Wed Nov 01 14:30:00 +0000 2017,@AppleSupport Your terrible update bricked my iPad! I am contacting my lawyer and filing a consumer court lawsuit!,1014,
+1014,AppleSupport,False,Wed Nov 01 14:32:00 +0000 2017,@115824 We want to assist with your iPad. Please send us a DM with your iPad model and current iPadOS version so we can have our senior escalation team review this immediately.,,1013
+1015,115825,True,Thu Nov 02 08:00:00 +0000 2017,@AppleSupport Getting iCloud storage full alert but I only have 500MB of photos. How to fix?,1016,
+1016,AppleSupport,False,Thu Nov 02 08:03:00 +0000 2017,@115825 Good question. Check Settings > [Your Name] > iCloud > Manage Account Storage to see which apps or device backups are consuming storage.,1017,1015
+1017,115825,True,Thu Nov 02 08:06:00 +0000 2017,@AppleSupport Ah it was an old iPad backup taking 40GB! Deleted it and all clear now. Thanks!,1018,1016
+1018,AppleSupport,False,Thu Nov 02 08:08:00 +0000 2017,@115825 Glad that cleared up your storage! Let us know if you need any other assistance.,,1017
+1019,115826,True,Thu Nov 02 10:15:00 +0000 2017,@AppleSupport Where is my order W8892110? It was supposed to arrive yesterday.,1020,
+1020,AppleSupport,False,Thu Nov 02 10:18:00 +0000 2017,@115826 You can track current shipment status at apple.com/orderstatus with your Apple ID and order number. Or send us a DM with your order info.,,1019
+1021,115827,True,Thu Nov 02 12:00:00 +0000 2017,@AmazonHelp Package marked delivered but it is not in my mailbox or porch. Order #112-8821992-120021,1022,
+1022,AmazonHelp,False,Thu Nov 02 12:03:00 +0000 2017,@115827 We apologize for the trouble. Sometimes carriers scan packages early. Please allow up to 24 hours, or visit amazon.com/contact-us for an instant replacement or refund.,,1021
+1023,115828,True,Thu Nov 02 15:30:00 +0000 2017,@Uber_Support Driver took a detour that doubled my fare from $18 to $42. Need a fare adjustment.,1024,
+1024,Uber_Support,False,Thu Nov 02 15:33:00 +0000 2017,@115828 We're sorry to hear about the route issue. You can review and dispute your fare directly in the Uber app under Activity > Select Trip > Help > My driver took a poor route.,,1023

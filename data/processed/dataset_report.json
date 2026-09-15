@@ -1,0 +1,29 @@
+{
+  "dataset_filepath": "/app/applet/data/raw/sample_twcs.csv",
+  "total_rows": 24,
+  "total_columns": 7,
+  "columns": [
+    "tweet_id",
+    "author_id",
+    "inbound",
+    "created_at",
+    "text",
+    "response_tweet_id",
+    "in_response_to_tweet_id"
+  ],
+  "missing_values": {
+    "tweet_id": 0,
+    "author_id": 0,
+    "inbound": 0,
+    "created_at": 0,
+    "text": 0,
+    "response_tweet_id": 6,
+    "in_response_to_tweet_id": 10
+  },
+  "duplicate_tweet_ids": 0,
+  "unique_authors": 11,
+  "inbound_tweets": 12,
+  "outbound_tweets": 12,
+  "inbound_percentage": 50.0,
+  "outbound_percentage": 50.0
+}

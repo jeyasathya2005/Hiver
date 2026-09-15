@@ -1,0 +1,7 @@
+rank,brand_id,brand_name,volume_score,response_coverage,conv_quality,resolution_evidence,intent_diversity,retrieval_suitability,golden_suitability,failure_analysis_potential,composite_score,selection_status
+1,AppleSupport,Apple Support,0.92,0.95,0.94,0.96,0.93,0.96,0.95,0.98,0.949,SELECTED
+2,AmazonHelp,Amazon Help,0.98,0.88,0.85,0.76,0.82,0.81,0.84,0.86,0.845,CANDIDATE
+3,SpotifyCares,Spotify Cares,0.72,0.86,0.84,0.82,0.78,0.80,0.79,0.81,0.802,CANDIDATE
+4,Delta,Delta Air Lines,0.71,0.85,0.82,0.79,0.74,0.78,0.76,0.84,0.786,CANDIDATE
+5,Uber_Support,Uber Support,0.78,0.82,0.79,0.72,0.75,0.74,0.73,0.80,0.766,CANDIDATE
+6,NikeSupport,Nike Support,0.64,0.80,0.77,0.71,0.68,0.72,0.70,0.74,0.720,CANDIDATE

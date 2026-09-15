@@ -1,0 +1,6 @@
+{
+  "name": "AI Support Agent & Policy Engine",
+  "description": "Enterprise AI Customer Support Agent grounded in Kaggle Twitter resolutions with intent classification, policy decision engine, evaluation benchmarks, and FastAPI connectivity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

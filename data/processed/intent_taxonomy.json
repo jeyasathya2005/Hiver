@@ -1,0 +1,162 @@
+{
+  "brand": "AppleSupport",
+  "total_intents": 10,
+  "intents": [
+    {
+      "intent": "battery_drain_issue",
+      "description": "Battery draining quickly, overheating, or unexpected device shutdowns following iOS/iPadOS updates.",
+      "examples": [
+        "My battery dies in 2 hours after updating to iOS 17.1! Help!",
+        "iPhone 14 Pro getting very hot and battery draining 50% in morning",
+        "Battery health dropped from 95% to 82% overnight"
+      ],
+      "resolution_patterns": [
+        "Guide customer to Settings > Battery > Battery Health to inspect Maximum Capacity.",
+        "Explain 48-hour post-update background indexing behavior.",
+        "Recommend Apple Authorized Service Provider if Maximum Capacity < 80%."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "LOW"
+    },
+    {
+      "intent": "refund_not_received",
+      "description": "Customer requesting a refund for App Store subscriptions, inadvertent in-app purchases, or pending return refunds.",
+      "examples": [
+        "I was charged $9.99 for Apple Music after I canceled my subscription! Want a refund now.",
+        "Kid bought $100 in Robux by mistake, how do I get my money back?",
+        "Returned my MacBook 2 weeks ago and still haven't received credit on my Visa"
+      ],
+      "resolution_patterns": [
+        "Direct customer to reportaproblem.apple.com to review purchase history and submit refund claims.",
+        "For disputes > $50 or bank chargeback mentions, escalate immediately to human billing specialist."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "MEDIUM"
+    },
+    {
+      "intent": "account_access_lockout",
+      "description": "Customer Apple ID locked for security reasons, forgotten passcode, or two-factor authentication recovery.",
+      "examples": [
+        "My Apple ID is locked for security reasons and I have a flight in 2 hours! Help!",
+        "iPhone disabled connect to iTunes and I forgot my screen lock passcode",
+        "Lost my trusted phone number and cannot receive two-factor verification code"
+      ],
+      "resolution_patterns": [
+        "Direct customer to iforgot.apple.com to reset password using trusted device or recovery key.",
+        "Explain Account Recovery waiting period protocol.",
+        "Escalate to human verification queue if customer has lost all trusted devices and numbers."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "MEDIUM"
+    },
+    {
+      "intent": "icloud_storage_billing",
+      "description": "iCloud storage full alerts, backup failures, photo sync errors, or upgrading storage tier.",
+      "examples": [
+        "Getting iCloud storage full alert but I only have 500MB of photos. How to fix?",
+        "Why is my iPhone backup failing due to insufficient iCloud storage?",
+        "I upgraded to 200GB iCloud+ but my phone still says storage full"
+      ],
+      "resolution_patterns": [
+        "Direct user to Settings > [Name] > iCloud > Manage Account Storage to identify large backups/attachments.",
+        "Provide instructions on deleting outdated device backups.",
+        "Instruct on signing out and back into Apple ID to refresh storage quota."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "LOW"
+    },
+    {
+      "intent": "hardware_order_delay",
+      "description": "Inquiries regarding online Apple Store delivery status, tracking numbers, or delayed shipments.",
+      "examples": [
+        "Where is my order W8892110? It was supposed to arrive yesterday.",
+        "UPS tracking says delayed due to weather, can I pick up at Apple Store instead?",
+        "Order status stuck on 'Processing' for 5 days"
+      ],
+      "resolution_patterns": [
+        "Guide customer to apple.com/orderstatus to view real-time carrier tracking.",
+        "Request customer send order details via private DM for carrier investigation if past delivery window."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "LOW"
+    },
+    {
+      "intent": "bluetooth_wifi_connectivity",
+      "description": "Wi-Fi dropping, Bluetooth accessories failing to pair, or AirPods disconnecting.",
+      "examples": [
+        "AirPods Pro keep disconnecting during phone calls every 3 minutes",
+        "iPhone won't connect to home 5GHz Wi-Fi network after router restart",
+        "Bluetooth toggle grayed out in Control Center"
+      ],
+      "resolution_patterns": [
+        "Guide customer through Forget Network / Forget Device and re-pairing.",
+        "Recommend Reset Network Settings via Settings > General > Transfer or Reset iPhone > Reset.",
+        "Provide official support article on AirPods firmware updates."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "LOW"
+    },
+    {
+      "intent": "app_store_crash_update",
+      "description": "Third-party applications crashing upon launch, App Store download errors, or iOS update verification hangs.",
+      "examples": [
+        "Instagram crashes immediately when opening on iOS 17.2",
+        "App Store says 'Unable to Purchase' error code 5002",
+        "iOS update stuck on 'Estimating time remaining' for 4 hours"
+      ],
+      "resolution_patterns": [
+        "Instruct user to force restart device and verify available local storage in Settings > General > iPhone Storage.",
+        "Recommend offloading and reinstalling the problematic application.",
+        "Advise connecting to computer for iTunes / Finder update if OTA verification hangs."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "LOW"
+    },
+    {
+      "intent": "legal_regulatory_escalation",
+      "description": "Customer threatening legal action, litigation, attorney involvement, or regulatory consumer protection complaints.",
+      "examples": [
+        "Your terrible update bricked my iPad! I am contacting my lawyer and filing a consumer court lawsuit!",
+        "Selling defective hardware is fraud. My attorney will be in touch tomorrow.",
+        "Reporting Apple to the FTC and consumer protection bureau for deceptive billing"
+      ],
+      "resolution_patterns": [
+        "Mandatory Human Escalation: Do not attempt automated resolution.",
+        "Acknowledge customer frustration neutrally and route immediately to Senior Executive Relations / Legal Support Queue."
+      ],
+      "default_action": "HUMAN_ESCALATION",
+      "risk_level": "CRITICAL"
+    },
+    {
+      "intent": "fraud_security_threat",
+      "description": "Compromised accounts, unauthorized financial charges, phishing attempts, or device theft.",
+      "examples": [
+        "Someone hacked my iCloud and is holding my photos for ransom!",
+        "Saw 5 unauthorized charges of $89.99 each from iTunes on my credit card tonight",
+        "Stolen iPhone with SIM swap, hacker trying to bypass Activation Lock"
+      ],
+      "resolution_patterns": [
+        "Mandatory Human Escalation: Immediate security triage.",
+        "Advise customer to initiate remote lock via iCloud.com/find from any browser.",
+        "Transfer immediately to Apple Security / Fraud Operations team."
+      ],
+      "default_action": "HUMAN_ESCALATION",
+      "risk_level": "HIGH"
+    },
+    {
+      "intent": "general_device_inquiry",
+      "description": "Broad inquiries, feature how-tos, trade-in value estimates, or ambiguous product questions.",
+      "examples": [
+        "Does iPhone 15 support USB-C display out to 4K monitors?",
+        "How much trade-in credit can I get for iPhone 12 in good condition?",
+        "When does Apple Intelligence launch in my country?"
+      ],
+      "resolution_patterns": [
+        "Provide factual technical specs from official Apple documentation.",
+        "Direct to apple.com/shop/trade-in for appraisal estimator tool."
+      ],
+      "default_action": "AUTO_HANDLE",
+      "risk_level": "LOW"
+    }
+  ]
+}

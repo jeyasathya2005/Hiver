@@ -1,0 +1,15 @@
+{
+  "selected_brand_id": "AppleSupport",
+  "brand_name": "Apple Support",
+  "twitter_handle": "@AppleSupport",
+  "dataset_source": "Kaggle Customer Support on Twitter (twcs.csv)",
+  "total_brand_tweets": 106123,
+  "inbound_customer_tweets": 142890,
+  "reconstructed_conversations": 84200,
+  "response_rate": 0.824,
+  "avg_conversation_length": 2.42,
+  "median_conversation_length": 2.0,
+  "intent_diversity_score": 0.89,
+  "resolution_evidence_density": 0.742,
+  "selection_rationale": "Apple Support demonstrates the highest volume of structured technical troubleshooting and policy-bound resolutions across the Kaggle dataset. Conversations feature explicit self-service links (reportaproblem.apple.com, iforgot.apple.com, Settings menus) and clear diagnostic dialogue trees, making it the optimal benchmark candidate for grounded retrieval and risk/policy evaluation."
+}

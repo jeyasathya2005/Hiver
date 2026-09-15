@@ -1,0 +1,12 @@
+metric,value,unit,notes
+total_conversations,84200,count,Reconstructed dialogues for @AppleSupport
+two_turn_dialogues,54200,count,Single customer inquiry + brand response
+multi_turn_dialogues,30000,count,3 or more turns with customer replies
+avg_conversation_length,2.42,turns,Mean number of tweets in conversation thread
+median_conversation_length,2.0,turns,50th percentile
+max_conversation_length,14,turns,Longest troubleshooting thread
+single_turn_orphans_excluded,18690,count,Inquiries with no brand reply
+verified_resolution_evidence,62476,count,Conversations with confirmed resolution signals (74.2%)
+avg_customer_chars,114.2,characters,Mean character length of initial customer tweet
+avg_brand_chars,158.6,characters,Mean character length of official brand reply
+contains_self_service_link,46820,count,Mentions official apple.com link or Settings path

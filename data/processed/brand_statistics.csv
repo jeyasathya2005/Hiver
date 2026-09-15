@@ -1,0 +1,7 @@
+brand_id,brand_name,total_tweets,inbound_tweets,outbound_tweets,unique_customers,replied_tweets,response_rate,reconstructed_convs,avg_conv_length,median_conv_length,max_conv_length,resolution_evidence_rate,intent_diversity
+AppleSupport,Apple Support,106123,142890,106123,89420,87450,0.824,84200,2.42,2.0,14,0.742,0.89
+AmazonHelp,Amazon Help,169840,210400,169840,118200,132000,0.777,112400,2.15,2.0,12,0.615,0.78
+Uber_Support,Uber Support,56200,74100,56200,43200,42100,0.749,38900,2.08,2.0,9,0.582,0.71
+Delta,Delta Air Lines,41200,53400,41200,31200,31000,0.752,28400,2.19,2.0,11,0.664,0.68
+SpotifyCares,Spotify Cares,43200,58100,43200,32900,32800,0.759,29800,2.21,2.0,10,0.695,0.73
+NikeSupport,Nike Support,34100,42800,34100,24500,25100,0.736,22400,2.04,2.0,8,0.591,0.62
